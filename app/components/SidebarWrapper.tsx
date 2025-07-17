@@ -22,7 +22,7 @@ export default function SidebarWrapper() {
      
       <button
         onClick={() => setIsOpen(true)}
-        className="fixed top-4 left-4 z-50 p-2 bg-black text-white border border-white rounded shadow-md lg:hidden"
+        className="fixed top-4 left-4 z-50 text-3xl rounded-2xl p-3 bg-black text-white border border-white shadow-md lg:hidden "
       >
         ☰
       </button>
