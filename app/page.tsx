@@ -47,6 +47,14 @@ export default function Home() {
 
   return (
     <main className="min-h-screen font-minecraft text-base bg-[var(--background)] text-[var(--foreground)]">
+      <div className="flex justify-center items-center gap-3 mb-6 relative group">
+        <span className="relative inline-block text-yellow-400 text-lg font-bold pixel-shadow animate-pulse transition-transform duration-300 group-hover:scale-105">
+          🛠️ Currently Building...
+          <span className="absolute -bottom-1 left-0 w-full h-1 bg-yellow-400 opacity-30 blur-md rounded-lg animate-ping"></span>
+        </span>
+        <span className="h-4 w-4 bg-red-500 rounded-full animate-bounce shadow-lg group-hover:scale-125 transition duration-300"></span>
+      </div>
+
       <div className="max-w-6xl mx-auto px-4 py-4">
         {/* Header */}
         <div className="w-full bg-minecraftGreen border-b-[6px] border-[#83653A] shadow-md py-4 px-4 text-center rounded-b-xl">

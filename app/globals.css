@@ -65,3 +65,18 @@ body.dark {
   --fg-sidebar: #fefefe;
   --border-sidebar: #83653A;
 }
+@keyframes slideInPopup {
+  0% {
+    transform: translateY(-50%) translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(-50%) translateX(0);
+    opacity: 1;
+  }
+}
+
+.popup-animate {
+  animation: slideInPopup 0.6s ease-out forwards;
+}
+
