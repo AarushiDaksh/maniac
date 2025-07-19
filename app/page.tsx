@@ -14,7 +14,7 @@ export default function Page() {
       </h1>
       <h2 className="text-5xl sm:text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-gray-600 to-gray-900 mt-2 z-10">
          <Typewriter
-          words={["master your schedule", "plan your day", "dominate your time"]}
+          words={["master schedule", "plan your day", "dominate your time"]}
           loop
           cursor
           cursorStyle="_"
