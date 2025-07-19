@@ -1,8 +1,7 @@
 import './globals.css';
-import Sidebar from './components/sidebar';
 import type { Metadata } from 'next';
 import ThemeProvider from './components/ThemeProvider';
-import SidebarWrapper from './components/SidebarWrapper';
+
 
 export const metadata: Metadata = {
   title: 'Docx - Minecraft Theme',
@@ -16,14 +15,16 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <head>
-        <link href="https://fonts.cdnfonts.com/css/minecraftia" rel="stylesheet" />
+        {/* <link href="https://fonts.cdnfonts.com/css/minecraftia" rel="stylesheet" /> */}
+        <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+
       </head>
       <body className="flex font-minecraft bg-[var(--background)] text-[var(--foreground)] transition-all duration-300">
-        <ThemeProvider>
-          <SidebarWrapper />
-          <main className="w-full lg:ml-[20%] px-4 min-h-screen">{children}</main>
+        {/* <ThemeProvider> */}
+          {/* <SidebarWrapper /> */}
+          <main className="w-full  min-h-screen">{children}</main>
 
-        </ThemeProvider>
+        {/* </ThemeProvider> */}
       </body>
     </html>
   );
