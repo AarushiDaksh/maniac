@@ -18,9 +18,9 @@ export default function Page() {
           loop
           cursor
           cursorStyle="_"
-          typeSpeed={40}
-          deleteSpeed={30}
-          delaySpeed={2500}
+          typeSpeed={60}
+          deleteSpeed={75}
+          delaySpeed={3000}
         />
       </h2>
 
