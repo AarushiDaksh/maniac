@@ -4,8 +4,8 @@ import ThemeProvider from './components/ThemeProvider';
 
 
 export const metadata: Metadata = {
-  title: 'Docx - Minecraft Theme',
-  description: 'Learnings@ by Aarushi',
+  title: 'Docx - Maniac',
+  description: 'AI-Agent@ by Aarushi',
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
